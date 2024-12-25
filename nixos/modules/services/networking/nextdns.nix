@@ -22,7 +22,7 @@ in
         type = types.listOf types.str;
         default = [ ];
         example = [
-          "-config"
+          "-profile"
           "10.0.3.0/24=abcdef"
         ];
         description = "Additional arguments to be passed to nextdns run.";
